@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PressCafe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+body{
+	margin:0;
+}
+
+img {
+	width:100%;
+	height: 200px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+
+header {
+	background-image: url("mainbanner.jpg");
+	bacground-size:cover;
+	height:100vh;
+	position:relative;
+}
+
+header img {
+	width: 300px;
+	height: 58px;
+	margin: 10px 0 0 30px;
+}
+
+nav{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+
+nav ul li{
+	float:left;
+	margin-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	list-style: none;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration: none;
+}
+
+header h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 96px;
+	font-weight: 800;
+	color:#88EBF2;
+	margin: 0;
+}
+
+header h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	color:white;
+	letter-spacing: 40px;
+	margin: 0;
+	
+}
+#blurb {
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+}
+
+main {
+	background-color: #DDD9D8;
+}
+
+.section-title {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.section-title h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 30px;
+	margin: 0px;
+	
+}
+
+#services {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+	width:300px;
+	float:left;
+	margin-left: 30px;
+	margin-bottom: 65px;
+}
+
+.card:first-child{
+	margin-left: 0px;
+}
+
+.card h4 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+footer{
+	background-color:#88EBF2;
+}
+
+#footer{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+
+.footer-left p{
+	font-family: 'Lora', serif;
+	font-size:12px;
+	color:#0d7077;
+}
+
+.footer-left{
+	width:300px;
+	float:left;
+}
+
+.footer-left img {
+	width:100%;
+	height: 70px;
+}
+
+.footer-right{
+	width:630px;
+	float:right;
+}
+
+.footer-right h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size:11.5px;
+	font-weight:400;
+	color:#0d7077;
+}
+
+.footer-right img {
+	border:ridge;
+	border-color: black;
+	border-width: thin;
+}
+
+.bolded {
+	font-weight:800;
+}
+
+.image1 img{
+	width:300px;
+	height: 100px;
+	float:left;
+}
+
+.image2 img{
+	width:300px;
+	height: 100px;
+	float:right;
+}
+
+.nav {
+	margin-left:-40px;
+	margin-right: -40px;
+}
+
+.nav ul li{
+	margin-top:20px;
+	float:left;
+	margin-right:24.5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	font-weight:400;
+	letter-spacing:5px;
+}
+
+.nav ul li a:hover{
+	color: white;
+}
+
+.nav ul li a {
+	color:black;
+	text-decoration:none;
+}
+	
+.nav ul li a:hover{
+	color: white;
+}
+
+	
+#subfooter{
+	background-color:#64B4B4;
+}
+
+.subfooter{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.subfooterleft h4{
+	float:left;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	font-weight:500;
+	color:#04647C;
+	margin-left:235px;
+}
+
+.subfooterright h4{
+	float:right;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	font-weight:500;
+	color:#04647C;
+	margin-right:235px;
+}
+
+</style>
+</head>
+
+<body>
+	<header>
+    <img src="logo.png" width="723" height="137" alt=""/>
+	<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="services.html">SERVICES</a></li>
+			<li><a href="clients.html">CLIENTS</a></li>
+			<li><a href="testimonials.html">TESTIMONIALS</a></li>
+			<li><a href="faqs.html">FAQS</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+			<div class="clearfix"></div>
+		</ul>
+	</nav>
+		<div id="blurb">
+			<h1>PRINT YOUR BOOK</h1>
+			<h3>WHILE YOU WAIT</h3>
+		</div>
+	</header>
+	
+<main>
+  <section id="services">
+			<div class="section-title">
+				<h2>WHAT YOU WILL GET</h2>
+			</div>
+			
+			<div>
+			<div class="card">
+		    <img src="services01.jpg" width="500" height="346" alt=""/>
+			<h4> Expert writing advice</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+			<div class="card">
+			<img src="services02.jpg" width="500" height="346" alt=""/>
+			<h4> Editing support</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+			<div class="card">
+		    <img src="services03.jpg" width="500" height="346" alt=""/>
+			<h4> Professional printing</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+			<div class="clearfix"></div>
+			</div>
+  </section>
+	</main>
+	
+<footer> 
+		<section id="footer">
+			<div>
+			
+				<div class="footer-left">
+				<img src="logo2.png">
+				<p>Where your dream project becomes a reality</p>
+				<p>1016 Strada Ottubre, Via Vergine, Milano, 70-B Italia</p>
+				<p>+39 722 786 8799</p>
+				<p>customercare@presscafe.it</p>
+				</div>
+				
+				<div class="footer-right"> 
+					
+				<h4>AT PRESS CAFE WE CAN PRINT YOUR BOOK WHILE YOU WAIT AT OUR 
+				<b>COMFORTABLE</b> AND 
+				<b>IMMERSIVE</b> 
+				OUTLETS</h4>
+					
+				<div class="image1">
+					<img src="map_ny.jpg">	
+				</div>
+					
+				<div class="image2">
+					<img src="map_milan.jpg">	
+				</div>
+					
+				<div class="nav">
+					<ul style="list-style:none">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="services.html">SERVICES</a></li>
+					<li><a href="clients.html">CLIENTS</a></li>
+					<li><a href="testimonials.html">TESTIMONIALS</a></li>
+					<li><a href="faqs.html">FAQS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<div class="clearfix"></div>
+					</ul>
+				</div>
+						
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+	</footer>
+
+<section id="subfooter">
+	<div>
+	<div class="subfooterleft">
+		<h4>© COPYRIGHT 2023 PRESSCAFE</h4>
+	</div>
+	
+	<div class="subfooterright">
+		<h4>WEB DEVELOPMENT BY LIAN MENDOZA </h4>
+	</div>
+	</div>
+	<div class="clearfix"></div>
+	</section>
+
+	
+</body>
+</html>
