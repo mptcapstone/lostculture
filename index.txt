@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lost Culture </title>
+	</head>
+	<body>
+		<header>
+			<div>
+				<img src=
+			</div>
+		</header>
+	</body>
+</html>

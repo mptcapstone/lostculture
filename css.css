@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width:360px) {
+
+	html, body{
+		width:100%;
+		overflow-x:hidden;
+	}
+
+.header .pclogo {
+	padding: 10px;
+}
+
